@@ -29,4 +29,4 @@ def print_grid(y, x):
         print_pipes(y, x)
     print_plusminuses(y, x)
 
-print_grid(6, 1)
+print_grid(2, 4)
