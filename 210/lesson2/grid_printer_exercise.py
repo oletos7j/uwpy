@@ -16,7 +16,7 @@ def print_plusminuses(y, x):
 
 def print_pipe(y, x):
     for i in range(y):
-        print("|", "  " * x, end = '')
+        print('|', '  ' * x, end ='')
 
 def print_pipes(y, x):
     for i in range(x):
@@ -29,4 +29,4 @@ def print_grid(y, x):
         print_pipes(y, x)
     print_plusminuses(y, x)
 
-print_grid(5, 3)
+print_grid(6, 1)
